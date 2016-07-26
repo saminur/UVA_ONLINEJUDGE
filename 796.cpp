@@ -97,7 +97,7 @@ void Graph:: Bridge()
 }
 int main()
 {
-
+    freopen("in.txt","r",stdin);
     int nodeNumber;
     int n,tmp,edge;
     while(scanf("%d",&nodeNumber)==1)
